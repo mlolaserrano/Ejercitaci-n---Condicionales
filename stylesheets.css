@@ -1,0 +1,180 @@
+/* Estilos generales */
+
+:root {
+    --background2-color: #92ACEF;
+    --background3-color: #CAD5F3;
+    --background4-color: #FBB348;
+    --background5-color: #FF6996;
+
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header {
+    background-color: var(--background3-color);
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+
+img {
+    
+    width: 260px;
+
+}
+
+
+h1 {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    padding: 5px;
+    font-size: 29px;
+}
+
+h2{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+
+footer {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.bg1 {
+
+    background-image: url('/images/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Conetenedor de datos para el pasaje */
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fechas {
+    background-color: var(--background2-color);
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Diseño para los elementos del formulario */
+
+.aviond {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.aviond input {
+    width: 100%;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.aviond i {
+    position: absolute;
+    right: 10px;
+    color: rgb(92, 92, 92);
+    font-size: 20px;
+    padding-bottom: 8px;
+    font-style: bold;
+}
+
+
+/* label e imputs */
+
+.fechas label,
+select {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    appearance: none;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, border-width 0.3s ease;
+}
+
+.fechas input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select:focus {
+    border-color: var(--background5-color);
+    border-width: 2px;
+    outline: none;
+}
+
+
+/* Boton de formulario */
+
+.fechas button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--background4-color);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.fechas button:hover {
+    background-color: var(--background5-color);
+}
+
+
+/* Pasaje */
+
+.backg2 {
+    background-image: url('/images/bongo-cat-meme-gif-desktop-wallpaper-preview.gif');
+    background-color: #B1F6FA;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
