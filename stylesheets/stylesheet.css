@@ -36,14 +36,23 @@ img {
 
 h1 {
     font-family: "Comfortaa", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal;
-    margin: 10px;
-    padding: 5px;
     font-size: 29px;
 }
 
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+h3 {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
 
 footer {
     font-family: "Arsenal SC", sans-serif;
@@ -53,6 +62,7 @@ footer {
     margin: 10px;
     padding: 10px;
 }
+
 
 
 .bg1 {
@@ -170,29 +180,138 @@ select:focus {
 }
 
 
-.cargando2 {  
-    font-size: 24px;  
-    text-align: left;  
-    position: relative;  
-    margin-top: 550px;  
-    font-weight: bold;  
-    color: #FD3C94;  
-    animation: titileo 1.5s infinite;  
+.cargando2 {
+    font-size: 24px;
+    text-align: left;
+    position: relative;
+    margin-top: 550px;
+    font-weight: bold;
+    color: #FD3C94;
+    animation: titileo 1.5s infinite;
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
 
-}  
+}
 
-@keyframes titileo {  
-    0% {  
-        opacity: 1;  
-    }  
-    50% {  
-        opacity: 0.3;  
-    }  
-    100% {  
-        opacity: 1;  
-    }  
-}  
+@keyframes titileo {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* Login Pasajero*/
+
+
+.contenedor {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    height: 70%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.lado-izquierdo,
+.lado-derecho {
+    flex: 1;
+}
+
+.lado-izquierdo img {
+    width: 100%;
+    height: 100%;
+}
+
+.lado-derecho {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.campo-entrada {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.boton {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--background2-color);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: var(--background3-color);
+}
+
+.admi {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+
+/* Pasajes*/
+.exitoso {
+    text-align: center;
+}
+
+/* Admin home*/
+
+.contenedor2 {
+    display: flex;
+}
+
+
+
+
+.lado-derecho2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.lado-derecho2 h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.lado-derecho2 h2 {
+    font-size: 20px;
+    color: #555;
+}
+
+.logout {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--background5-color);
+
+}
