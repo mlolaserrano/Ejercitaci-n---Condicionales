@@ -150,7 +150,7 @@ select:focus {
 }
 
 
-/* Boton de formulario */
+/* boro de formulario */
 
 .fechas button {
     margin: 10px;
@@ -182,9 +182,9 @@ select:focus {
 
 .cargando2 {
     font-size: 24px;
-    text-align: left;
+    text-align: center;
     position: relative;
-    margin-top: 550px;
+    margin-top: 750px;
     font-weight: bold;
     color: #FD3C94;
     animation: titileo 1.5s infinite;
@@ -209,6 +209,33 @@ select:focus {
     }
 }
 
+.datosinicio {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #555;
+    background-color: #a3e0e4;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.boton2{
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--background5-color);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+.boton2:hover{
+    background-color: var(--background4-color);
+}
 
 /* Login Pasajero*/
 
@@ -273,6 +300,14 @@ select:focus {
     font-optical-sizing: auto;
 
 }
+
+.olvide{
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    margin-top: -2px;
+}
+
 
 
 /* Pasajes*/

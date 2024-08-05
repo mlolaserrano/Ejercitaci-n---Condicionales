@@ -13,7 +13,7 @@ function comprobarFecha() {
 
 
     if (fechaIda < fechaVuelta) {
-        alert("¡Gracias por viajas con nosotros!");
+        alert("¡Gracias por viaja con nosotros!");
 
         // Redirección a la página de pasaje
         window.location.href = "pasaje.html";
@@ -25,7 +25,7 @@ function comprobarFecha() {
         alert("Su viaje debe durar al menos una noche");
 
     } else {
-        alert("La fecha de ida debe ser antes de la fecha de vuelta.");
+        alert("La fecha de partida debe ser antes de la fecha de regreso.");
     }
 
 }
