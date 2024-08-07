@@ -36,8 +36,8 @@ var usuarios = [
 
     // Pasajero
     {
-        "mail": "dove123",
-        "contraseña": "633TQ",
+        "mail": "mail",
+        "contraseña": "pass",
         "rol": 1
     },
 
@@ -62,12 +62,12 @@ function InicioSesion() {
 
 
                 // Redirigir al pasajero
-                window.location.href = '/pasajero.html';
+                window.location.href = 'pasajero.html';
             } else if (usuarios[index].rol == 2) {
 
 
                 // Redirigir al administrador
-                window.location.href = '/admihome.html';
+                window.location.href = 'admihome.html';
             }
             return;
         }
